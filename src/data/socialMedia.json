@@ -1,12 +1,12 @@
 [
   {
     "id": 0,
-    "name": "Портфолио на Behance",
+    "name": "Портфолио Behance",
     "url": "https://www.behance.net/thejoss"
   },
   {
     "id": 1,
-    "name": "Портфолио на Dribble",
+    "name": "Портфолио Dribble",
     "url": "https://dribbble.com/thejoss"
   },
   {
@@ -18,10 +18,5 @@
     "id": 3,
     "name": "Telegram",
     "url": "https://teleg.run/jossdesign"
-  },
-  {
-    "id": 4,
-    "name": "Блог",
-    "url": "https://teletype.in/"
   }
 ]
