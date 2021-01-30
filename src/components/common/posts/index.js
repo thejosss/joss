@@ -15,7 +15,7 @@ export const HeaderIntro = styled.header`
 export const Title = styled.h1`
   font-family: "GT-Walsheim-Pro-Bold";
   font-size: 2rem;
-  text-transform: capitalize;
+  text-transform: none;
   @media(max-width: ${variables.breakpointPhone}) {
     font-size: 1.5rem;
   }
