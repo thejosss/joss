@@ -16,9 +16,10 @@ const WorkIndex = ({ data }) => {
           <ContainerLayout>
 
             <SubTitle className="text-dark">
-              Selected Work
+              Избранные проекты
             </SubTitle>
-
+            <Text>Все выполненные мною работы вы можете найти на моём <a href="https://www.behance.net/thejoss" target="_blank" rel="noreferrer">Behance профиле</a>,
+             а также <a href="https://dribbble.com/thejoss" target="_blank" rel="noreferrer">профиле Dribble</a>.</Text>
             <ContainerLayout className="wrapper">
               {works.map(({ node }) => {
               const title = node.frontmatter.title || node.fields.slug

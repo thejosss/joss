@@ -39,7 +39,7 @@ export const CopyRight = styled.p`
 	font-size: 11px;
 	line-height: 1.8;
 	letter-spacing:1px;
-	text-transform: capitalize;
+	text-transform: none;
 `
 export const FooterBody = styled.div`
 	display: grid;

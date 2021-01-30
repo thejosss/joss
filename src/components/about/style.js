@@ -18,7 +18,7 @@ export const Avatar =styled(Img)`
 `
 export const Title = styled.h1`
   font-size: 3rem;
-  text-transform: capitalize;
+  text-transform: none;
   font-family: "GT-Walsheim-Pro-Bold";
   @media(max-width: ${variables.breakpointPhone}) {
     font-size: 2rem;

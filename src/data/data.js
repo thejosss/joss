@@ -1,60 +1,24 @@
 module.exports = {
-  SiteTitle: 'Abdelali',
+  SiteTitle: 'the Joss',
   Sitelogo: '#',
-  SiteLogoText: 'Abdelali',
-  SiteAuthor: 'Abdelali Dahir',
-  SiteDescription: 'Front End Developer',
-  defaultDescription: 'Software engineer!', 
-  githubApiQuery: `query ($number_of_repos: Int!) {
-    viewer {
-      name
-      avatarUrl
-      isHireable
-      resourcePath
-      repositories(last: $number_of_repos, privacy: PUBLIC, orderBy: { field: STARGAZERS, direction:ASC } ) {
-        nodes {
-          name
-          description
-          homepageUrl
-          forkCount
-          createdAt
-          updatedAt
-          resourcePath
-          languages(last: 1, orderBy: { field: SIZE, direction:ASC } ) {
-            edges {
-              node {
-                name
-                color
-              }
-            }
-          }
-          licenseInfo {
-            name
-          }
-          stargazers {
-            totalCount
-          }
-        }
-      }
-    }
-  }`,
-  githubApiVariables: {
-    number_of_repos: 12,
-  }, 
+  SiteLogoText: 'the Joss',
+  SiteAuthor: 'the Joss',
+  SiteDescription: 'Senior UI/UX Designer',
+  defaultDescription: 'Senior UI/UX Designer',  
   SiteSocialLinks: {
     twitter: 'https://twitter.com/AbdaliDahir',
     github: 'https://github.com/AbdaliDahir',
     linkedin: 'https://www.linkedin.com/in/abdelali-dahir-0b5344111/',
   },
   SiteAddress: {
-    city: 'Casablanca',
-    region: 'CurvaSud',
-    country: 'Morocco',
+    city: 'Петрозаводск',
+    region: 'Республика Карелия',
+    country: 'Российская Федерация',
     zipCode: 'ZipCode',
   },
   SiteContact: {
-    email: 'abdali.dahir@gmail.com',
+    email: 'thejoss@thejoss.ru',
     phone: 'phone number',
   },
-  SiteCopyright: '2020',
+  SiteCopyright: '2021',
 };

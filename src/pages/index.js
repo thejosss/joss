@@ -5,7 +5,7 @@ import About from "../components/about"
 
 const IndexPage = () => (
     <Layout> 
-      <SEO title="About me" />
+      <SEO title="Обо мне" />
       <About /> 
     </Layout>
   )

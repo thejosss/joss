@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import { User, Briefcase, Feather, Smile, GitHub } from 'react-feather'
+import { User, Briefcase, Feather, Smile } from 'react-feather'
 
 import {NavbarElement, NavbarList, NavbarLogo} from './style'
 
@@ -12,16 +12,15 @@ const Navbar = ({ siteTitle }) => (
           <NavbarLogo>
             <h3>
               <Link to="/">
-                <Smile className="align-middle"/> <span className="align-middle"> {siteTitle} </span>
+                <Smile className="align-middle"/> <span className="align-middle"> the Joss </span>
               </Link>
             </h3>
           </NavbarLogo> 
           <div className="main-navigation">
             <NavbarList>
-              <li><Link to="/" className="lined-link" activeClassName="active"> <User /> <span> About </span> </Link></li> 
-              <li><Link to="/repositories" className="lined-link" activeClassName="active"> <GitHub /> <span> Github </span> </Link></li>  
-              <li><Link to="/works" className="lined-link" activeClassName="active"> <Briefcase /> <span> Portfolio </span> </Link></li>  
-              <li><Link to="/blog" className="lined-link" activeClassName="active"> <Feather /> <span> Blog </span> </Link></li>
+              <li><Link to="/" className="lined-link" activeClassName="active"> <User /> <span> Обо мне </span> </Link></li>   
+              <li><Link to="/works" className="lined-link" activeClassName="active"> <Briefcase /> <span> Портфолио </span> </Link></li>  
+              <li><Link to="https://teletype.in/" target="_blank" rel="noreferrer" className="lined-link" activeClassName="active"> <Feather /> <span> Блог </span> </Link></li>
             </NavbarList>
           </div>
       </NavbarElement>

@@ -21,7 +21,7 @@ const Footer = () => {
 						</FooterSocialMedia>
 						<div>
 							<p className="text-primary quote"> Ready to take the next step and work together? </p>
-							<ButtonDefault href={`mailto:${data.SiteContact.email}`}> Contact me </ButtonDefault>
+							<ButtonDefault href="https://teleg.run/jossdesign"> Заказать дизайн </ButtonDefault>
 						</div>
 					</FooterBody>
 					<div className="box">
@@ -31,7 +31,7 @@ const Footer = () => {
 							<span> {new Date().getFullYear()}, Built with {` `} 
 								<a href="https://www.gatsbyjs.org">Gatsby</a>{" "}
           		</span> 
-							Copyright 2020 by {data.SiteAuthor} </CopyRight>
+							Copyright by {data.SiteAuthor} </CopyRight>
 					</div>
 				</ContainerLayout>
 			</FooterStyle>
