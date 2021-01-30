@@ -33,39 +33,33 @@ const RepositoryPage = ({data}) => {
 export default RepositoryPage
 
 export const gitHubQuery = graphql`
-  {
-    githubData {
-      data {
-        viewer {
-          name
-          avatarUrl
-          repositories {
-            nodes {
-              name
-              description
-              homepageUrl
-              resourcePath
-              forkCount
-              createdAt
-              updatedAt
-              languages {
-                edges {
-                  node {
-                    name
-                    color
-                  }
+{
+  githubData {
+    data {
+      viewer {
+        avatarUrl
+        repositories {
+          nodes {
+            name
+            resourcePath
+            forkCount
+            createdAt
+            updatedAt
+            languages {
+              edges {
+                node {
+                  name
+                  color
                 }
               }
-              licenseInfo {
-                name
-              }
-              stargazers {
-                totalCount
-              }
+            }
+            stargazers {
+              totalCount
             }
           }
         }
       }
     }
   }
+}
 `
