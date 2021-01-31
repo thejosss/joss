@@ -1,22 +1,22 @@
 [
   {
     "id": 0,
-    "name": "Портфолио Behance",
+    "name": "Behance",
     "url": "https://www.behance.net/thejoss"
   },
   {
     "id": 1,
-    "name": "Портфолио Dribble",
+    "name": "Dribble",
     "url": "https://dribbble.com/thejoss"
   },
   {
     "id": 2,
-    "name": "instagram",
+    "name": "Instagram",
     "url": "https://www.instagram.com/the.josss"
   },
   {
     "id": 3,
-    "name": "Telegram",
-    "url": "https://teleg.run/jossdesign"
+    "name": "E-Mail",
+    "url": "mailto:thejoss@thejoss.ru"
   }
 ]

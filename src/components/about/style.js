@@ -28,7 +28,7 @@ export const Text = styled.p`
   font-size: 1.2rem;
   line-height: 2;
   color: #232323;
-  text-transform: capitalize;
+  text-transform: none;
   a {
     color: #3F51B5;
     text-decoration: underline;
@@ -36,12 +36,12 @@ export const Text = styled.p`
 `
 export const SubTitle = styled.h2`
   font-family: "GT-Walsheim-Pro-Medium";
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   margin-bottom: 2rem;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: none;
   word-spacing: 8px;
   @media(min-width: ${variables.breakpointPhone}) {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
 `

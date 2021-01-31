@@ -6,9 +6,9 @@ module.exports = {
   SiteDescription: 'Senior UI/UX Designer',
   defaultDescription: 'Senior UI/UX Designer',  
   SiteSocialLinks: {
-    twitter: 'https://twitter.com/AbdaliDahir',
-    github: 'https://github.com/AbdaliDahir',
-    linkedin: 'https://www.linkedin.com/in/abdelali-dahir-0b5344111/',
+    behance: 'https://www.behance.net/thejoss',
+    dribbble: 'https://dribbble.com/thejoss',
+    instagram: 'https://www.instagram.com/the.josss',
   },
   SiteAddress: {
     city: 'Петрозаводск',
