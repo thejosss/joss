@@ -8,7 +8,7 @@ export const FooterStyle = styled.footer`
 	position: relative;
 	text-align: left;
 	@media(min-width: ${variables.breakpointPhone}) {
-		background: linear-gradient(to top, #efe9e9, transparent 50%);
+		background: #FFFFFF;
 	}
 	@media(max-width: ${variables.breakpointPhone}) {
 		padding-bottom: 2rem;
