@@ -3,7 +3,7 @@ module.exports = {
   Sitelogo: '#',
   SiteLogoText: 'the Joss',
   SiteAuthor: 'the Joss',
-  SiteDescription: 'Senior UI/UX Designer',
+  SiteDescription: 'Это тестовое описание, для того, чтобы проверить работу поисковых систем.',
   defaultDescription: 'Senior UI/UX Designer',  
   SiteSocialLinks: {
     behance: 'https://www.behance.net/thejoss',
