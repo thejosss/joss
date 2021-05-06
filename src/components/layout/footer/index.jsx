@@ -20,8 +20,8 @@ const Footer = () => {
 							))}
 						</FooterSocialMedia>
 						<div>
-							<p className="text-primary quote"> Ready to take the next step and work together? </p>
-							<ButtonDefault href="https://teleg.run/jossdesign"> Заказать дизайн </ButtonDefault>
+							<p className="text-primary quote">Готовы сделать следующий шаг и работать вместе?</p>
+							<ButtonDefault href="https://t.me/jossdesign" target="_blank"> Заказать дизайн </ButtonDefault>
 						</div>
 					</FooterBody>
 					<div className="box">

@@ -20,7 +20,7 @@ const Navbar = ({ siteTitle }) => (
             <NavbarList>
               <li><Link to="/" className="lined-link" activeClassName="active"> <User /> <span> Обо&nbsp;мне </span> </Link></li>   
               <li><Link to="/works" className="lined-link" activeClassName="active"> <Briefcase /> <span> Портфолио </span> </Link></li>  
-              <li><Link to="https://teletype.in/" target="_blank" rel="noreferrer" className="lined-link" activeClassName="active"> <Feather /> <span> Блог </span> </Link></li>
+              <li><Link to="https://t.me/thejossdesign" target="_blank" rel="noreferrer" className="lined-link" activeClassName="active"> <Feather /> <span> Блог </span> </Link></li>
             </NavbarList>
           </div>
       </NavbarElement>

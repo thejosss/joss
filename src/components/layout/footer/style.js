@@ -43,7 +43,7 @@ export const CopyRight = styled.p`
 `
 export const FooterBody = styled.div`
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 0.94fr;
 	align-items: center;
 	@media(max-width: ${variables.breakpointPhone}) {
 		grid-template-columns: 1fr;
@@ -58,7 +58,7 @@ export const FooterSocialMedia = styled.ul`
 		justify-content: space-between;
 	}
 	li {
-		margin-bottom: 1.5rem;
+		margin-bottom: 1.2rem;
 	}
 `
 export const MediaLink = styled.a`
